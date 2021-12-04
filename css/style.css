@@ -6,8 +6,122 @@
 }
 
 
-.container img{
+.background{
+    display: block;
     position: absolute;
-    z-index: -1;
+    top:0;
     width: 100vw;
 }
+
+.card{
+    background-color: hsl(225, 100%, 100%);
+    position: relative;
+    margin: 50px auto;
+    width: 375px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.card__header img{
+    display:block;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__information{
+    padding: 0 2em;
+    text-align: center;
+}
+
+.card__information .information__title{
+    color:  hsl(223, 47%, 23%); 
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.informacion__description{
+    color:  hsl(224, 23%, 55%);
+    line-height: 1.5;
+    padding-bottom: 1em;
+}
+
+.information__plan{
+    position: relative;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.plan__music{
+    position: relative;
+    left: -40px;
+}
+
+.plan__description{
+    position: relative;
+    top: -10px;
+    right: 30px;
+    display: inline-block;
+    color:hsl(223, 47%, 23%); 
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+}
+
+.plan__description span{
+    color: hsl(224, 23%, 55%);
+    padding-top: 10px;
+}
+
+.change{
+    position: relative;
+    top: -20px;
+    left: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: 600;
+    color:hsl(245, 75%, 52%);
+}
+
+.change:hover{
+    color: rgba(56, 41, 224, .5);;
+}
+
+.payment{
+    display: block;
+    background-color:  hsl(245, 75%, 52%);
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px  hsl(224, 23%, 55%);
+}    
+
+.payment:hover{
+    background-color: rgba(56, 41, 224, .8);
+}
+
+.footer{
+    display: block;
+    color:hsl(224, 23%, 55%);
+    font-weight: 900;
+    margin-bottom: 2em;
+    text-decoration: none;
+}
+
+.footer:hover{
+    color:hsl(223, 47%, 23%)
+}
+
+
+
+
+
+
