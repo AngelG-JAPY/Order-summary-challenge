@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.container img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
